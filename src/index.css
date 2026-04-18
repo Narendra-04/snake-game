@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #080808;
+  --color-neon-green: #39FF14;
+  --color-neon-pink: #FF00FF;
+  --color-neon-blue: #00F3FF;
+  --font-mono: 'Courier New', monospace;
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-white font-sans overflow-hidden h-screen w-screen flex flex-col m-0 p-0 box-border;
+  }
+}
+
